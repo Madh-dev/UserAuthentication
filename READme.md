@@ -1,0 +1,9 @@
+const bodyParser = require('body-parser');
+const { default: mongoose } = require("mongoose");
+const path = require('path');
+const cookieParser = require('cookie-parser');
+const expressHandlebars = require('express-handlebars');
+const flash = require('connect-flash');
+const session = require('express-session');
+const passport = require('passport');
+const morgan = require('morgan')
